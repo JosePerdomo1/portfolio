@@ -1,0 +1,74 @@
+ @font-face {
+    font-family: 'fredoka' ;
+    src: url(fonts/Fredoka_Condensed-Light.ttf);
+ }
+ @font-face {
+    font-family: 'tittles-fredoka';
+    src: url(fonts/Fredoka_SemiCondensed-Bold.ttf);
+ }
+html {
+    max-width: 550px;
+    margin: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:  #007bff;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+h1, h2, h3 {
+    font-family: 'tittles-fredoka', sans-serif;
+    font-size: 35px;
+    color: #007bff;
+}
+ section > ul{
+    font-family: 'fredoka', sans-serif;
+    font-size: 20px;
+ }
+p {
+    font-family: 'fredoka', sans-serif;
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

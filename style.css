@@ -9,7 +9,20 @@
 html {
     max-width: 550px;
     margin: auto;
+    background-color: #151f2b;
 }
+section{
+    overflow: hidden; 
+    max-width: 100%;
+}
+iframe {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; 
+    width: 500px;
+    height: 315px;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -20,6 +33,9 @@ nav ul {
     background-color:  #007bff;
     text-align: center;
 
+}
+li, a{
+    color: white;
 }
 
 nav ul li {
@@ -46,10 +62,13 @@ h1, h2, h3 {
     font-family: 'fredoka', sans-serif;
     font-size: 20px;
  }
+ section > ul li a:hover{
+    color: #007bff;
+ }
 p {
     font-family: 'fredoka', sans-serif;
     font-size: 20px;
-    color: #666;
+    color: white;
     line-height: 1.6;
 }
 img {
@@ -71,4 +90,7 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+img{
+    border: 2px solid black;
 }

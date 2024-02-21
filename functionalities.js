@@ -9,5 +9,20 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     });
+    //pequeño easter egg para que cuando se presione la foto del juan garay aparezca
+    // la vaca (cowsayjs) para decir una frase muy utilizada en clase
+    document.getElementById('foto-juan-garay').addEventListener('click', function () {
+        let cowsayContainer = document.getElementById('cowsay-container');
+        let mensaje = '<pre>\n' +
+            ' _______________\n' +
+            '< ME DESPLIEGO!>\n' +
+            ' ---------------\n' +
+            '        \\   ^__^\n' +
+            '         \\  (oo)\\_______\n' +
+            '            (__)\\       )\\/\\\n' +
+            '                ||----w |\n' +
+            '                ||     ||\n' +
+            '</pre>';
+        cowsayContainer.innerHTML = '<pre>' + mensaje + '</pre>';
+    });
 });
-

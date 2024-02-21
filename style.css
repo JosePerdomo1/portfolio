@@ -77,6 +77,9 @@ img {
     display: block;
     margin: 0 auto;
 }
+#cowsay-container{
+    color: white;
+}
 footer {
     background-color: #f8f9fa;
     padding: 20px;
